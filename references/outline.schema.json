@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gradescope-outline.schema.json",
+  "title": "Gradescope assignment outline",
+  "description": "Request body for Gradescope's outline save endpoint (PATCH /courses/{cid}/assignments/{aid}/outline/). Used by the Gradescope Outline JSON Import/Export userscript. Importing REPLACES the whole saved outline, so include every question you want to keep.",
+  "type": "object",
+  "required": [
+    "assignment",
+    "question_data"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "assignment": {
+      "type": "object",
+      "required": [
+        "identification_regions"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "identification_regions": {
+          "type": "object",
+          "description": "Where students write their identity on the template.",
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "description": "Name region, or null for none.",
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/rect"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "sid": {
+              "description": "Student ID region, or null for none.",
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/rect"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "question_data": {
+      "type": "array",
+      "description": "Top-level questions, in outline order. Numbering (1, 1.1, 1.2, ...) is assigned by position.",
+      "items": {
+        "$ref": "#/$defs/question"
+      }
+    }
+  },
+  "$defs": {
+    "rect": {
+      "type": "object",
+      "description": "A rectangle on one template page. All coordinates are PERCENT (0-100) of that page's width (x) or height (y), measured from the top-left corner.",
+      "required": [
+        "x1",
+        "x2",
+        "y1",
+        "y2",
+        "page_number"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "x1": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Left edge, % of page width."
+        },
+        "x2": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Right edge, % of page width. Must be greater than x1."
+        },
+        "y1": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Top edge, % of page height."
+        },
+        "y2": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Bottom edge, % of page height. Must be greater than y1."
+        },
+        "page_number": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "1-based index of the template page."
+        }
+      }
+    },
+    "question": {
+      "type": "object",
+      "required": [
+        "title",
+        "weight"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Name shown in the outline and when grading."
+        },
+        "weight": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Points. For a question with children this should equal the sum of the children's weights."
+        },
+        "crop_rect_list": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/rect"
+          },
+          "description": "Where students answer. Required for questions without children. Optional for questions with children: the importer copies the first child's rectangle."
+        },
+        "children": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/question"
+          },
+          "description": "Subquestions. Gradescope allows only one level of subquestions, so children must not have children."
+        }
+      },
+      "if": {
+        "not": {
+          "required": [
+            "children"
+          ]
+        }
+      },
+      "then": {
+        "required": [
+          "crop_rect_list"
+        ]
+      }
+    }
+  }
+}

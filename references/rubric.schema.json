@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gradescope-rubric.schema.json",
+  "title": "Gradescope rubric items",
+  "description": "Rubric items per question, as exported/imported by the Gradescope Outline & Rubric JSON userscript. Import SYNCS each listed question's rubric to match the file: scoring type, groups and items are added, edited, moved and reordered, and (after a separate confirmation) existing items and groups that are missing from the file are deleted. Questions not listed are untouched.",
+  "type": "object",
+  "required": [
+    "questions"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "question",
+          "items"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "question": {
+            "type": "string",
+            "description": "The question's number as shown in Gradescope, e.g. \"1\", \"1.1\", \"4.12\". Used to find the question."
+          },
+          "title": {
+            "type": "string",
+            "description": "The question's title. Optional safety check: if present and different from the title in Gradescope, the entry is skipped."
+          },
+          "scoring_type": {
+            "type": "string",
+            "enum": [
+              "negative",
+              "positive"
+            ],
+            "description": "How the question is scored: \"negative\" = subtract points (rubric items deduct from the question's points), \"positive\" = add points. If it differs from the current setting on import, the question's scoring type is changed. Omit to leave it unchanged."
+          },
+          "items": {
+            "type": "array",
+            "description": "Rubric entries in display order (first = top): plain items and groups. Groups share one ordering with ungrouped items. An item that appears in a different place than it has now (another group, or ungrouped) is moved. Include the default \"Correct\" item (weight 0) if it should be kept; any existing item or group that is not listed is deleted on import (with confirmation).",
+            "items": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/item"
+                },
+                {
+                  "$ref": "#/$defs/group"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "item": {
+      "type": "object",
+      "required": [
+        "description",
+        "weight"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Text shown to graders for this rubric item. Supports full Markdown (bold, italics, inline code, lists, and fenced code blocks with a language tag such as ```java, used only for multi-line code) and LaTeX math between $$ and $$. Escape backslashes and newlines in JSON."
+        },
+        "weight": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Points as a non-negative number. Gradescope stores weights as positive numbers regardless of scoring type; the question's scoring_type decides whether the item adds or deducts."
+        }
+      }
+    },
+    "group": {
+      "type": "object",
+      "required": [
+        "group",
+        "items"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "group": {
+          "type": "string",
+          "description": "Group name."
+        },
+        "mutually_exclusive": {
+          "type": "boolean",
+          "description": "If true, graders can apply at most one item from the group."
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/item"
+          },
+          "description": "Items inside the group, in order. A group needs at least one item."
+        }
+      }
+    }
+  }
+}

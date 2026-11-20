@@ -1,0 +1,1005 @@
+{
+  "assignment": {
+    "identification_regions": {
+      "name": {
+        "x1": 59.1,
+        "x2": 94.3,
+        "y1": 2.6,
+        "y2": 9.6,
+        "page_number": 1
+      },
+      "sid": null
+    }
+  },
+  "question_data": [
+    {
+      "title": "HTML Basics",
+      "weight": 16,
+      "crop_rect_list": [
+        {
+          "x1": 21.0,
+          "x2": 79.0,
+          "y1": 14.85,
+          "y2": 18.58,
+          "page_number": 2
+        }
+      ],
+      "children": [
+        {
+          "title": "div: meaning",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 21.0,
+              "x2": 79.0,
+              "y1": 14.85,
+              "y2": 18.58,
+              "page_number": 2
+            }
+          ]
+        },
+        {
+          "title": "div: block/inline",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 79.4,
+              "x2": 92.7,
+              "y1": 14.85,
+              "y2": 18.58,
+              "page_number": 2
+            }
+          ]
+        },
+        {
+          "title": "span: meaning",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 21.0,
+              "x2": 79.0,
+              "y1": 18.98,
+              "y2": 22.72,
+              "page_number": 2
+            }
+          ]
+        },
+        {
+          "title": "span: block/inline",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 79.4,
+              "x2": 92.7,
+              "y1": 18.98,
+              "y2": 22.72,
+              "page_number": 2
+            }
+          ]
+        },
+        {
+          "title": "h2: meaning",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 21.0,
+              "x2": 79.0,
+              "y1": 23.12,
+              "y2": 26.86,
+              "page_number": 2
+            }
+          ]
+        },
+        {
+          "title": "h2: block/inline",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 79.4,
+              "x2": 92.7,
+              "y1": 23.12,
+              "y2": 26.86,
+              "page_number": 2
+            }
+          ]
+        },
+        {
+          "title": "img: meaning",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 21.0,
+              "x2": 79.0,
+              "y1": 27.26,
+              "y2": 30.92,
+              "page_number": 2
+            }
+          ]
+        },
+        {
+          "title": "img: block/inline",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 79.4,
+              "x2": 92.7,
+              "y1": 27.26,
+              "y2": 30.92,
+              "page_number": 2
+            }
+          ]
+        },
+        {
+          "title": "p: meaning",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 21.0,
+              "x2": 79.0,
+              "y1": 31.32,
+              "y2": 35.06,
+              "page_number": 2
+            }
+          ]
+        },
+        {
+          "title": "p: block/inline",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 79.4,
+              "x2": 92.7,
+              "y1": 31.32,
+              "y2": 35.06,
+              "page_number": 2
+            }
+          ]
+        },
+        {
+          "title": "label: meaning",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 21.0,
+              "x2": 79.0,
+              "y1": 35.46,
+              "y2": 39.19,
+              "page_number": 2
+            }
+          ]
+        },
+        {
+          "title": "label: block/inline",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 79.4,
+              "x2": 92.7,
+              "y1": 35.46,
+              "y2": 39.19,
+              "page_number": 2
+            }
+          ]
+        },
+        {
+          "title": "em: meaning",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 21.0,
+              "x2": 79.0,
+              "y1": 39.59,
+              "y2": 43.24,
+              "page_number": 2
+            }
+          ]
+        },
+        {
+          "title": "em: block/inline",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 79.4,
+              "x2": 92.7,
+              "y1": 39.59,
+              "y2": 43.24,
+              "page_number": 2
+            }
+          ]
+        },
+        {
+          "title": "ul: meaning",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 21.0,
+              "x2": 79.0,
+              "y1": 43.64,
+              "y2": 47.38,
+              "page_number": 2
+            }
+          ]
+        },
+        {
+          "title": "ul: block/inline",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 79.4,
+              "x2": 92.7,
+              "y1": 43.64,
+              "y2": 47.38,
+              "page_number": 2
+            }
+          ]
+        },
+        {
+          "title": "2a: id vs class",
+          "weight": 2,
+          "crop_rect_list": [
+            {
+              "x1": 8.0,
+              "x2": 92.0,
+              "y1": 57.4,
+              "y2": 64.8,
+              "page_number": 2
+            }
+          ]
+        },
+        {
+          "title": "2b: absolute vs relative URL",
+          "weight": 2,
+          "crop_rect_list": [
+            {
+              "x1": 8.0,
+              "x2": 92.0,
+              "y1": 66.8,
+              "y2": 73.8,
+              "page_number": 2
+            }
+          ]
+        },
+        {
+          "title": "2c: image link HTML",
+          "weight": 2,
+          "crop_rect_list": [
+            {
+              "x1": 8.0,
+              "x2": 92.0,
+              "y1": 75.8,
+              "y2": 83.8,
+              "page_number": 2
+            }
+          ]
+        },
+        {
+          "title": "2d: ordered list HTML",
+          "weight": 2,
+          "crop_rect_list": [
+            {
+              "x1": 8.0,
+              "x2": 92.0,
+              "y1": 85.9,
+              "y2": 96.0,
+              "page_number": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Tables & Forms",
+      "weight": 10,
+      "crop_rect_list": [
+        {
+          "x1": 0,
+          "x2": 100,
+          "y1": 14.1,
+          "y2": 50.9,
+          "page_number": 3
+        }
+      ],
+      "children": [
+        {
+          "title": "Table",
+          "weight": 5,
+          "crop_rect_list": [
+            {
+              "x1": 0,
+              "x2": 100,
+              "y1": 14.1,
+              "y2": 50.9,
+              "page_number": 3
+            }
+          ]
+        },
+        {
+          "title": "Form",
+          "weight": 5,
+          "crop_rect_list": [
+            {
+              "x1": 0,
+              "x2": 100,
+              "y1": 58.5,
+              "y2": 95.9,
+              "page_number": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Semantic Elements",
+      "weight": 5,
+      "children": [
+        {
+          "title": "Match 1: site logo",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 6.3,
+              "x2": 10.3,
+              "y1": 13.7,
+              "y2": 16.9,
+              "page_number": 4
+            }
+          ]
+        },
+        {
+          "title": "Match 2: nav links",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 6.3,
+              "x2": 10.3,
+              "y1": 17.2,
+              "y2": 20.4,
+              "page_number": 4
+            }
+          ]
+        },
+        {
+          "title": "Match 3: news story",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 6.3,
+              "x2": 10.3,
+              "y1": 20.9,
+              "y2": 24.1,
+              "page_number": 4
+            }
+          ]
+        },
+        {
+          "title": "Match 4: Sports section",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 6.3,
+              "x2": 10.3,
+              "y1": 24.5,
+              "y2": 27.6,
+              "page_number": 4
+            }
+          ]
+        },
+        {
+          "title": "Match 5: Trending sidebar",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 6.3,
+              "x2": 10.3,
+              "y1": 28.9,
+              "y2": 32.0,
+              "page_number": 4
+            }
+          ]
+        },
+        {
+          "title": "Match 6: photo + caption",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 6.3,
+              "x2": 10.3,
+              "y1": 33.3,
+              "y2": 36.4,
+              "page_number": 4
+            }
+          ]
+        },
+        {
+          "title": "Match 7: caption text",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 6.3,
+              "x2": 10.3,
+              "y1": 36.9,
+              "y2": 40.1,
+              "page_number": 4
+            }
+          ]
+        },
+        {
+          "title": "Match 8: main content",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 6.3,
+              "x2": 10.3,
+              "y1": 40.6,
+              "y2": 43.8,
+              "page_number": 4
+            }
+          ]
+        },
+        {
+          "title": "Match 9: footer",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 6.3,
+              "x2": 10.3,
+              "y1": 44.3,
+              "y2": 47.4,
+              "page_number": 4
+            }
+          ]
+        },
+        {
+          "title": "Match 10: publish date",
+          "weight": 0.5,
+          "crop_rect_list": [
+            {
+              "x1": 6.3,
+              "x2": 10.3,
+              "y1": 47.8,
+              "y2": 51.0,
+              "page_number": 4
+            }
+          ]
+        }
+      ],
+      "crop_rect_list": [
+        {
+          "x1": 6.3,
+          "x2": 10.3,
+          "y1": 13.7,
+          "y2": 16.9,
+          "page_number": 4
+        }
+      ]
+    },
+    {
+      "title": "CSS Basics",
+      "weight": 19,
+      "children": [
+        {
+          "title": "Box model: background-color",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 7.9,
+              "x2": 32.9,
+              "y1": 37.5,
+              "y2": 40.4,
+              "page_number": 5
+            }
+          ]
+        },
+        {
+          "title": "Box model: color",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 7.9,
+              "x2": 32.9,
+              "y1": 42.4,
+              "y2": 45.3,
+              "page_number": 5
+            }
+          ]
+        },
+        {
+          "title": "Box model: font-weight",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 19.6,
+              "x2": 44.0,
+              "y1": 47.3,
+              "y2": 50.2,
+              "page_number": 5
+            }
+          ]
+        },
+        {
+          "title": "Box model: width",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 14.5,
+              "x2": 38.9,
+              "y1": 52.2,
+              "y2": 55.1,
+              "page_number": 5
+            }
+          ]
+        },
+        {
+          "title": "Box model: padding",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 7.9,
+              "x2": 32.9,
+              "y1": 57.2,
+              "y2": 60.1,
+              "page_number": 5
+            }
+          ]
+        },
+        {
+          "title": "Box model: border",
+          "weight": 2,
+          "crop_rect_list": [
+            {
+              "x1": 15.2,
+              "x2": 39.9,
+              "y1": 62.1,
+              "y2": 65.0,
+              "page_number": 5
+            }
+          ]
+        },
+        {
+          "title": "Box model: margin",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 7.9,
+              "x2": 32.9,
+              "y1": 67.0,
+              "y2": 69.9,
+              "page_number": 5
+            }
+          ]
+        },
+        {
+          "title": "Selector a: nav links",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 64.6,
+              "x2": 82.0,
+              "y1": 14.6,
+              "y2": 17.7,
+              "page_number": 6
+            }
+          ]
+        },
+        {
+          "title": "Selector b: tip paragraphs",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 64.6,
+              "x2": 82.0,
+              "y1": 21.9,
+              "y2": 25.0,
+              "page_number": 6
+            }
+          ]
+        },
+        {
+          "title": "Selector c: three trails",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 64.6,
+              "x2": 82.0,
+              "y1": 29.1,
+              "y2": 32.2,
+              "page_number": 6
+            }
+          ]
+        },
+        {
+          "title": "Selector d: River Walk",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 64.6,
+              "x2": 82.0,
+              "y1": 34.8,
+              "y2": 37.8,
+              "page_number": 6
+            }
+          ]
+        },
+        {
+          "title": "Selector e: heading + nav",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 64.6,
+              "x2": 82.0,
+              "y1": 40.5,
+              "y2": 43.6,
+              "page_number": 6
+            }
+          ]
+        },
+        {
+          "title": "Specificity A",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 64.6,
+              "x2": 80.1,
+              "y1": 53.0,
+              "y2": 55.8,
+              "page_number": 6
+            }
+          ]
+        },
+        {
+          "title": "Specificity B",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 64.6,
+              "x2": 80.1,
+              "y1": 56.9,
+              "y2": 59.7,
+              "page_number": 6
+            }
+          ]
+        },
+        {
+          "title": "Specificity C",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 64.6,
+              "x2": 80.1,
+              "y1": 61.2,
+              "y2": 64.0,
+              "page_number": 6
+            }
+          ]
+        },
+        {
+          "title": "Specificity D",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 64.6,
+              "x2": 80.1,
+              "y1": 65.3,
+              "y2": 68.1,
+              "page_number": 6
+            }
+          ]
+        },
+        {
+          "title": "Specificity E",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 64.6,
+              "x2": 80.1,
+              "y1": 69.5,
+              "y2": 72.3,
+              "page_number": 6
+            }
+          ]
+        },
+        {
+          "title": "Specificity F",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 64.6,
+              "x2": 80.1,
+              "y1": 73.9,
+              "y2": 76.7,
+              "page_number": 6
+            }
+          ]
+        }
+      ],
+      "crop_rect_list": [
+        {
+          "x1": 7.9,
+          "x2": 32.9,
+          "y1": 37.5,
+          "y2": 40.4,
+          "page_number": 5
+        }
+      ]
+    },
+    {
+      "title": "Web and JavaScript Concepts",
+      "weight": 10,
+      "children": [
+        {
+          "title": "1: HTTP 200",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 6.3,
+              "x2": 49.2,
+              "y1": 14.8,
+              "y2": 24.8,
+              "page_number": 7
+            }
+          ]
+        },
+        {
+          "title": "2: host name",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 6.3,
+              "x2": 49.2,
+              "y1": 30.9,
+              "y2": 39.9,
+              "page_number": 7
+            }
+          ]
+        },
+        {
+          "title": "3: getItem after setItem",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 6.3,
+              "x2": 49.2,
+              "y1": 45.9,
+              "y2": 54.8,
+              "page_number": 7
+            }
+          ]
+        },
+        {
+          "title": "4: getItem missing key",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 6.3,
+              "x2": 49.2,
+              "y1": 61.3,
+              "y2": 69.8,
+              "page_number": 7
+            }
+          ]
+        },
+        {
+          "title": "5: \"3\" === 3",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 6.3,
+              "x2": 49.2,
+              "y1": 74.2,
+              "y2": 83.1,
+              "page_number": 7
+            }
+          ]
+        },
+        {
+          "title": "6: form submit event",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 51.3,
+              "x2": 92.1,
+              "y1": 14.8,
+              "y2": 23.7,
+              "page_number": 7
+            }
+          ]
+        },
+        {
+          "title": "7: no preventDefault",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 51.3,
+              "x2": 92.1,
+              "y1": 30.0,
+              "y2": 39.6,
+              "page_number": 7
+            }
+          ]
+        },
+        {
+          "title": "8: for...in on array",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 51.3,
+              "x2": 92.1,
+              "y1": 46.2,
+              "y2": 55.6,
+              "page_number": 7
+            }
+          ]
+        },
+        {
+          "title": "9: add class",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 51.3,
+              "x2": 92.1,
+              "y1": 60.0,
+              "y2": 69.0,
+              "page_number": 7
+            }
+          ]
+        },
+        {
+          "title": "10: querySelector",
+          "weight": 1,
+          "crop_rect_list": [
+            {
+              "x1": 51.3,
+              "x2": 92.1,
+              "y1": 75.2,
+              "y2": 84.7,
+              "page_number": 7
+            }
+          ]
+        }
+      ],
+      "crop_rect_list": [
+        {
+          "x1": 6.3,
+          "x2": 49.2,
+          "y1": 14.8,
+          "y2": 24.8,
+          "page_number": 7
+        }
+      ]
+    },
+    {
+      "title": "Statements",
+      "weight": 12,
+      "children": [
+        {
+          "title": "1: Create trails array",
+          "weight": 3,
+          "crop_rect_list": [
+            {
+              "x1": 6.0,
+              "x2": 94.4,
+              "y1": 12.8,
+              "y2": 18.6,
+              "page_number": 8
+            }
+          ]
+        },
+        {
+          "title": "2: Remove last item",
+          "weight": 3,
+          "crop_rect_list": [
+            {
+              "x1": 6.0,
+              "x2": 94.4,
+              "y1": 20.6,
+              "y2": 26.5,
+              "page_number": 8
+            }
+          ]
+        },
+        {
+          "title": "3: Select all li",
+          "weight": 3,
+          "crop_rect_list": [
+            {
+              "x1": 6.0,
+              "x2": 94.4,
+              "y1": 28.7,
+              "y2": 34.4,
+              "page_number": 8
+            }
+          ]
+        },
+        {
+          "title": "4: Read age as number",
+          "weight": 3,
+          "crop_rect_list": [
+            {
+              "x1": 6.0,
+              "x2": 94.4,
+              "y1": 36.4,
+              "y2": 42.0,
+              "page_number": 8
+            }
+          ]
+        }
+      ],
+      "crop_rect_list": [
+        {
+          "x1": 6.0,
+          "x2": 94.4,
+          "y1": 12.8,
+          "y2": 18.6,
+          "page_number": 8
+        }
+      ]
+    },
+    {
+      "title": "Debugging",
+      "weight": 6,
+      "children": [
+        {
+          "title": "Error 1: event listener",
+          "weight": 3,
+          "crop_rect_list": [
+            {
+              "x1": 6.0,
+              "x2": 65.9,
+              "y1": 67.0,
+              "y2": 71.4,
+              "page_number": 8
+            }
+          ]
+        },
+        {
+          "title": "Error 2: saving notes",
+          "weight": 3,
+          "crop_rect_list": [
+            {
+              "x1": 6.0,
+              "x2": 65.9,
+              "y1": 76.4,
+              "y2": 80.9,
+              "page_number": 8
+            }
+          ]
+        }
+      ],
+      "crop_rect_list": [
+        {
+          "x1": 6.0,
+          "x2": 65.9,
+          "y1": 67.0,
+          "y2": 71.4,
+          "page_number": 8
+        }
+      ]
+    },
+    {
+      "title": "Arrays and Loops",
+      "weight": 10,
+      "crop_rect_list": [
+        {
+          "x1": 6.0,
+          "x2": 94.4,
+          "y1": 26.1,
+          "y2": 47.6,
+          "page_number": 9
+        }
+      ]
+    },
+    {
+      "title": "DOM Manipulation",
+      "weight": 12,
+      "crop_rect_list": [
+        {
+          "x1": 6.0,
+          "x2": 94.4,
+          "y1": 65.6,
+          "y2": 92.1,
+          "page_number": 9
+        }
+      ]
+    }
+  ]
+}

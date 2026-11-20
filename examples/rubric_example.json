@@ -1,0 +1,85 @@
+{
+  "questions": [
+    {
+      "question": "1.1",
+      "title": "div: meaning",
+      "scoring_type": "negative",
+      "items": [
+        {
+          "description": "Correct",
+          "weight": 0
+        },
+        {
+          "description": "Meaning vague or incomplete",
+          "weight": 0.25
+        },
+        {
+          "description": "Meaning missing or wrong",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "question": "1.2",
+      "title": "div: block/inline",
+      "scoring_type": "negative",
+      "items": [
+        {
+          "description": "Correct",
+          "weight": 0
+        },
+        {
+          "description": "Wrong display type",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "question": "5.1",
+      "title": "1: HTTP 200",
+      "scoring_type": "negative",
+      "items": [
+        {
+          "description": "Correct",
+          "weight": 0
+        },
+        {
+          "description": "Incorrect or blank",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "question": "6.1",
+      "title": "1: Create trails array",
+      "scoring_type": "negative",
+      "items": [
+        {
+          "description": "Correct",
+          "weight": 0
+        },
+        {
+          "group": "Syntax",
+          "items": [
+            {
+              "description": "Missing const/let/var",
+              "weight": 1
+            },
+            {
+              "description": "Missing brackets or quotes",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "description": "Wrong variable name",
+          "weight": 1
+        },
+        {
+          "description": "Not an array of the three strings",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}
